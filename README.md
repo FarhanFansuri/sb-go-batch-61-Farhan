@@ -1,4 +1,4 @@
-# Golang - Backend Development Projects  <img src="https://images.app.goo.gl/kFKDN8bakze8Y7T87" alt="Golang Logo" width="20" height="20">(Batch 61) 
+# Golang - Backend Development Projects  <a href="https://golang.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" alt="go" width="40" height="40"/> </a>(Batch 61) 
 
 Selamat datang di repository saya! Ini adalah kumpulan proyek dan latihan yang saya kerjakan selama mengikuti bootcamp **"Golang - Backend Development"** (Batch 61) yang diselenggarakan oleh [Sanbercode](https://sanbercode.com).
 
