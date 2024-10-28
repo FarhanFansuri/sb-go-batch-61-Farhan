@@ -12,9 +12,9 @@ Berikut adalah daftar proyek yang sudah atau akan saya kerjakan selama bootcamp 
 - pekan-1
   - formative-1 : Membuat file data_peserta.txt
 - pekan-2
-  - formative-6 : Membuat file data_peserta.txt
+  - formative-6 : -
 - pekan-3
-  - formative-11 : Membuat file data_peserta.txt
+  - formative-11 : -
 
 ## Final Project
 
