@@ -1,0 +1,11 @@
+Data Peserta Bootcamp Digital Skill - Golang Backend Development
+1. Nama: Mochammad Farhan Fansuri
+2. Email: farhanfansuri2023@gmail.com
+3. Sistem Operasi yang digunakan: Windows
+4. Akun Github: FarhanFansuri
+5. Akun Telegram: Mochammad Farhan Fansuri
+6. Role Pekerjaan (BE/FE/DEVOPS/MAHASISWA) : MAHASISWA
+7. Umur: 22
+8. Pernah menggunakan Go? : Belum
+9. Bahasa Pemrograman yg pernah dipelajari: Javascript, Typescript, Python
+10. Pernah membuat REST API? : Pernah
