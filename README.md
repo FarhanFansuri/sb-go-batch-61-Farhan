@@ -17,4 +17,4 @@ Berikut adalah daftar proyek yang sudah atau akan saya kerjakan selama bootcamp 
   - formative-11 : -
 
 ## Final Project
-
+Akan ada proyek akhir yang wajib dikerjakan pada minggu ke-4 dan dikumpulkan untuk mendapatkan Sertifikat
