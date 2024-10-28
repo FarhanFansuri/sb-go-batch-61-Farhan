@@ -10,11 +10,23 @@ Bootcamp ini berfokus pada pengembangan backend dengan menggunakan bahasa pemrog
 
 Berikut adalah daftar proyek yang sudah atau akan saya kerjakan selama bootcamp ini:
 - pekan-1
-  - formative-1 : Membuat file data_peserta.txt
+  - tugas-1 : Membuat file data_peserta.txt (formative-1)
+  - tugas-2 : 
+  - tugas-3 : 
+  - tugas-4 : 
+  - tugas-5 : 
 - pekan-2
-  - formative-6 : -
+  - tugas-6 : 
+  - tugas-7 : 
+  - tugas-8 :
+  - tugas-9 :
+  - tugas-10 : 
 - pekan-3
-  - formative-11 : -
+  - tugas-11 :
+  - tugas-12 :
+  - tugas-13 :
+  - tugas-14 :
+  - tugas-15 :
 
 ## Final Project
 Akan ada proyek akhir yang wajib dikerjakan pada minggu ke-4 dan dikumpulkan untuk mendapatkan Sertifikat
