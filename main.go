@@ -3,7 +3,8 @@ package main
 // Tambahkan ini untuk mengimpor paket strings
 import (
 	_ "fmt"
-	"strings"
+	"strconv"
+	_ "strconv"
 	_ "strings" // Tambahkan ini untuk mengimpor paket strings
 )
 
@@ -54,7 +55,16 @@ func main() {
 
 	// var rpt = strings.Repeat("na", 2)
 	// println(rpt)
-	nama := "rrrfarhan fansurirrr"
-	println(string(strings.Split(nama, " ")[0]))
-	println(strings.Trim(nama, "r"))
+	// nama := "rrrfarhan fansurirrr"
+	// println(string(strings.Split(nama, " ")[0]))
+	// println(strings.Trim(nama, "r"))
+
+	// strconv
+	num, err := strconv.ParseBool("tue")
+
+	if err == nil {
+		println(num)
+	} else {
+		println("Error", err.Error())
+	}
 }
