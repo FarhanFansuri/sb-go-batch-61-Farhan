@@ -11,7 +11,7 @@ Bootcamp ini berfokus pada pengembangan backend dengan menggunakan bahasa pemrog
 Berikut adalah daftar proyek yang sudah atau akan saya kerjakan selama bootcamp ini:
 - pekan-1
   - tugas-1 : Membuat file data_peserta.txt (formative-1)
-  - tugas-2 : 
+  - tugas-2 : Introduction Golang, Variable, Constant & Data Type (formative-2)
   - tugas-3 : 
   - tugas-4 : 
   - tugas-5 : 
