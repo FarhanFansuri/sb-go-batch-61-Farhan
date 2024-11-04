@@ -12,11 +12,11 @@ Berikut adalah daftar proyek yang sudah atau akan saya kerjakan selama bootcamp 
 - pekan-1
   - tugas-1 : Membuat file data_peserta.txt (formative-1)
   - tugas-2 : Introduction Golang, Variable, Constant & Data Type (formative-2)
-  - tugas-3 : 
-  - tugas-4 : 
-  - tugas-5 : 
+  - tugas-3 : Operator dan Conditional
+  - tugas-4 : Array, Slice, Map & Looping
+  - tugas-5 : Function
 - pekan-2
-  - tugas-6 : 
+  - tugas-6 : Pointer
   - tugas-7 : 
   - tugas-8 :
   - tugas-9 :
