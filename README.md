@@ -17,7 +17,7 @@ Berikut adalah daftar proyek yang sudah atau akan saya kerjakan selama bootcamp 
   - tugas-5 : Function
 - pekan-2
   - tugas-6 : Pointer
-  - tugas-7 : 
+  - tugas-7 : Struct dan Method
   - tugas-8 :
   - tugas-9 :
   - tugas-10 : 
