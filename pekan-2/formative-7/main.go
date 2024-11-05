@@ -79,7 +79,7 @@ func main() {
 	for i, d := range dataFilm {
 		fmt.Printf("%d.", i+1)
 		fmt.Println("title :", d.title)
-		fmt.Println("duration :", d.duration)
+		fmt.Println("duration :", d.duration/60, "Jam")
 		fmt.Println("genre :", d.genre)
 		fmt.Println("year :", d.year)
 		fmt.Println()
