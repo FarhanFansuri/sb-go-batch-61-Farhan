@@ -3,8 +3,13 @@ package main
 import (
 	"errors"
 	"fmt"
+	"sort"
 	"strconv"
+	"sync"
+	"time"
 )
+
+var phones = []string{"Xiaomi", "Asus", "Iphone", "Samsung", "Oppo", "Realme", "Vivo"}
 
 func main() {
 	// 	soal 1
@@ -19,6 +24,48 @@ func main() {
 
 	fmt.Println(kelilingSegitigaSamaSisi(0, false))
 
+	// soal 3
+	// deklarasi variabel angka ini simpan di baris pertama func main
+	angka := 1
+
+	defer cetakAngka(&angka)
+
+	tambahAngka(7, &angka)
+
+	tambahAngka(6, &angka)
+
+	tambahAngka(-1, &angka)
+
+	tambahAngka(9, &angka)
+
+	// soal 4
+	var phones = []string{}
+	insertPhone(&phones)
+	for i, d := range phones {
+		fmt.Println(strconv.Itoa(i+1)+".", d)
+		time.Sleep(1 * time.Second)
+	}
+
+	//soal 5
+	var wg sync.WaitGroup
+	wg.Add(1)
+
+	// Menjalankan displayPhones dengan goroutine
+	go displayPhones(&wg)
+
+	// Menunggu semua goroutine selesai
+	wg.Wait()
+
+	// soal 6
+	var movies = []string{"Harry Potter", "LOTR", "SpiderMan", "Logan", "Avengers", "Insidious", "Toy Story"}
+
+	moviesChannel := make(chan string)
+
+	go getMovies(moviesChannel, movies...)
+
+	for value := range moviesChannel {
+		fmt.Println(value)
+	}
 }
 
 func statement(s string, i int) {
@@ -52,4 +99,48 @@ func kelilingSegitigaSamaSisi(i int, b bool) (string, error) {
 		panic("Maaf anda belum menginput sisi dari segitiga sama sisi")
 	}
 	return "", nil
+}
+
+func tambahAngka(i int, a *int) {
+	*a += i
+}
+
+func cetakAngka(a *int) {
+	fmt.Println(*a)
+}
+
+func insertPhone(p *[]string) {
+	data := []string{
+		"Xiaomi",
+		"Asus",
+		"IPhone",
+		"Samsung",
+		"Oppo",
+		"Realme",
+		"Vivo",
+	}
+
+	for _, d := range data {
+		*p = append(*p, d)
+	}
+
+	sort.Strings(*p)
+}
+
+func getMovies(moviesChannel chan string, movies ...string) {
+	for _, movie := range movies {
+		moviesChannel <- movie
+	}
+	close(moviesChannel)
+}
+
+func displayPhones(wg *sync.WaitGroup) {
+	defer wg.Done()
+
+	sort.Strings(phones)
+
+	for i, phone := range phones {
+		fmt.Printf("%d. %s\n", i+1, phone)
+		time.Sleep(1 * time.Second)
+	}
 }
