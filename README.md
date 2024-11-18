@@ -29,7 +29,7 @@ Berikut adalah daftar proyek yang sudah atau akan saya kerjakan selama bootcamp 
   - tugas-15 :
 
 ## Final Project
-# Restaurant API
+## Restaurant API
 
 Restaurant API adalah layanan backend yang dirancang untuk membantu manajemen operasional restoran, seperti mengelola menu, pesanan, reservasi meja, dan pembayaran.
 
