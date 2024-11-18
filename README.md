@@ -18,18 +18,17 @@ Berikut adalah daftar proyek yang sudah atau akan saya kerjakan selama bootcamp 
 - pekan-2
   - tugas-6 : Pointer
   - tugas-7 : Struct dan Method
-  - tugas-8 :
-  - tugas-9 :
-  - tugas-10 : 
+  - tugas-8 : Interface
+  - tugas-9 : Package & Import
+  - tugas-10 : Defer, Panic, Recover, Error, Goroutine dan Channel
 - pekan-3
-  - tugas-11 :
-  - tugas-12 :
-  - tugas-13 :
-  - tugas-14 :
-  - tugas-15 :
+  - tugas-11 : JSON data & Web Server
+  - tugas-12 : Web Service API Server & Middleware
+  - tugas-13 : Gin Framework & PostgreSQL
+  - tugas-14 : -
+  - tugas-15 : -
 
-## Final Project
-## Restaurant API
+## Final Project (Restaurant API)
 
 Restaurant API adalah layanan backend yang dirancang untuk membantu manajemen operasional restoran, seperti mengelola menu, pesanan, reservasi meja, dan pembayaran.
 
