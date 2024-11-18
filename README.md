@@ -29,4 +29,32 @@ Berikut adalah daftar proyek yang sudah atau akan saya kerjakan selama bootcamp 
   - tugas-15 :
 
 ## Final Project
-Akan ada proyek akhir yang wajib dikerjakan pada minggu ke-4 dan dikumpulkan untuk mendapatkan Sertifikat
+# Restaurant API
+
+Restaurant API adalah layanan backend yang dirancang untuk membantu manajemen operasional restoran, seperti mengelola menu, pesanan, reservasi meja, dan pembayaran.
+
+## Fitur Utama
+
+- **Manajemen Menu**  
+  - CRUD (Create, Read, Update, Delete) menu makanan dan minuman.  
+  - Kategori menu (makanan pembuka, utama, penutup).  
+  - Informasi harga dan ketersediaan.
+
+- **Manajemen Pesanan**  
+  - Membuat pesanan baru.  
+  - Mengupdate status pesanan (diproses, selesai, dibatalkan).  
+  - Melihat riwayat pesanan pelanggan.
+
+- **Manajemen Meja**  
+  - Melihat daftar meja yang tersedia.  
+  - Reservasi meja oleh pelanggan.
+
+- **Manajemen Pembayaran**  
+  - Mendukung berbagai metode pembayaran (tunai/kartu/digital).  
+  - Melihat status pembayaran pesanan.
+
+- **Authentication & Authorization**  
+  - Sistem login untuk admin restoran.  
+  - Akses fitur sesuai peran pengguna (admin/pelanggan).
+
+---
